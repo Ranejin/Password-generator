@@ -54,7 +54,7 @@ button{
     width: 191px;
     font-size:16px;
    margin-top:30px;
-    
+   box-shadow: 10px 10px #000000;
 }
 #generated{
     display:flex;
@@ -133,4 +133,12 @@ label{
         height: auto;
         aspect-ratio: 2.5 / 1;
     }
+}
+button:hover{
+    background-color: #55F991;
+    color: #1F2937;
+}
+button:active{
+    box-shadow: 5px 5px #111111;
+    transform: translateY(4px);
 }
