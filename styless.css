@@ -116,3 +116,21 @@ label{
 .copy{
     margin-top:5px;
 }
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    #container {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #pic {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2.5 / 1;
+    }
+}
