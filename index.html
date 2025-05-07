@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+<link rel="stylesheet" href="styless.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<title>Password Generator</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="pic">
+                
+            </div>
+        <div id="textandbutton">
+        <h1>Generate a<span id="break"><br> random password</span></h1>
+        <h2>Never use an insecure password again.</h2>
+        <form id="formula">
+        <div class="gomboks"><label for="passwordlength">How many characters should the password be?(18-24)!</label><span class="valaszto"> <input type="number" min="15" max="24" required id="passwordlength" value="15"></span></div>
+        <div class="gomboks"><label for="specialnumbers">Should it contain special characters and numbers?</label><span class="valaszto"><input type="checkbox" id="specialnumbers"  ></span></div>
+        </form>
+        <div id="centerb"><button id="generate" onclick="generatePassword()">Generate passwords</button></div>
+        </div>
+        <div id="generated">
+            <div class="pbackground">
+                <p id="psone"></p>
+               
+            </div>
+            
+            <div class="pbackground">
+                <p id="pstwo"></p>
+                
+            </div>
+            
+        </div>
+        <div id="utso">
+        <button class="copy" onclick="copyone()">COPY</button>
+        <button class="copy" onclick="copytwo()">COPY</button>
+        </div>
+    </div>
+<script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    
+    
+}
+#pic{
+    background-image: url(1.jpg);
+    background-size:cover;
+    width: 550px;
+    height: 250px;
+    border-bottom: 3px solid #D5D4D8;
+}
+.inter{
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+#container{
+    
+    background:#1F2937;
+    width:550px;
+    height: 830px;
+    border:3px solid #D5D4D8;
+    border-radius: 6px;
+    
+    
+   
+}
+#break{
+    color:#55F991;
+}
+h1{
+    font-size:40px;
+}
+h2{
+    color:#D5D4D8;
+    font-size: 20px;
+}
+
+button{
+    color:white;
+    background: #10B981;
+    border:none;
+    border-radius: 6px;
+    height:42px;
+    width: 191px;
+    font-size:16px;
+   margin-top:30px;
+    
+}
+#generated{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-top:3px solid #D5D4D8;
+    border-radius: 1px;
+    padding-top:20px;
+}
+.pbackground{
+    height: 39px;
+    width: 211px;
+    background-color: #273549;
+    border-radius: 6px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p{
+    font-size:10px;
+    color:#55F991;
+}
+#textandbutton{
+    margin:30px;
+}
+.gomboks{
+    color:#D5D4D8;
+    border:2px solid #D5D4D8;
+    border-radius: 1px;
+    background-color: #273549;
+    border-radius: 6px;
+    padding:10px;
+    margin:10px;
+    display: flex;
+  justify-content: space-between;
+  align-items:center;
+  
+   
+}
+label{
+    font-size: 14px;
+    
+}
+.valaszto{
+    flex-shrink: 0;
+}
+#centerb{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#utso{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copy{
+    margin-top:5px;
+}
